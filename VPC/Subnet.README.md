@@ -1,4 +1,4 @@
-# Step 3: Create a Private Subnet
+# Step 2: Create a Private Subnet
 
 ## Objective
 
@@ -19,7 +19,7 @@ The objective of this task was to create a private subnet within my Virtual Priv
 
 ## Result
 
-# Step 4: Create a Public Subnet
+# Step 3: Create a Public Subnet
 
 ## Objective
 
@@ -81,7 +81,7 @@ The private subnet was successfully created inside my VPC. This subnet is design
 - Cloud Infrastructure
 - AWS Management Console
 
-# Step 5: Create an Internet Gateway (IGW)
+# Step 4: Create an Internet Gateway (IGW)
 
 ## Objective
 
@@ -113,8 +113,118 @@ The Internet Gateway was successfully created and was ready to be attached to my
 - Internet Gateway (IGW)
 - AWS Networking
 - Cloud Infrastructure
+- AWS Management Console# Step 5: Attach the Internet Gateway to the VPC
+
+## Objective
+
+The objective of this task was to attach the Internet Gateway (IGW) to my Virtual Private Cloud (VPC). Attaching the Internet Gateway allows resources within the VPC to communicate with the internet when combined with the appropriate routing configuration.
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Searched for **VPC** and opened the **VPC Dashboard**.
+3. Selected **Internet Gateways** from the left navigation pane.
+4. Chose the Internet Gateway I had previously created.
+5. Clicked **Actions**.
+6. Selected **Attach to VPC**.
+7. Chose my VPC from the list of available VPCs.
+8. Clicked **Attach internet gateway**.
+
+## Result
+
+The Internet Gateway was successfully attached to my VPC. This completed a key networking configuration, allowing the VPC to communicate with the internet once the Route Table was updated with the appropriate route.
+
+## What I Learned
+
+- An Internet Gateway must be attached to a VPC before it can provide internet connectivity.
+- Attaching an Internet Gateway alone does not give resources internet access.
+- A Route Table must also include a default route (`0.0.0.0/0`) that points to the Internet Gateway.
+- Resources in a public subnet can access the internet only after the Internet Gateway is attached and the Route Table is properly configured.
+
+## Skills Demonstrated
+
+- Amazon VPC
+- Internet Gateway (IGW)
+- VPC Configuration
+- AWS Networking
+- Cloud Infrastructure
+- AWS Management Console# Step 7: Add a Route to the Internet Gateway
+
+## Objective
+
+The objective of this task was to configure the Route Table by adding a default route that directs internet-bound traffic to the Internet Gateway (IGW). This allows resources in the public subnet to communicate with the internet.
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Searched for **VPC** and opened the **VPC Dashboard**.
+3. Selected **Route Tables** from the left navigation pane.
+4. Chose the Route Table I had previously created.
+5. Opened the **Routes** tab.
+6. Clicked **Edit routes**.
+7. Clicked **Add route**.
+8. Entered the following values:
+   - **Destination:** `0.0.0.0/0`
+   - **Target:** Selected the Internet Gateway (IGW) attached to my VPC.
+9. Clicked **Save changes**.
+
+## Result
+
+The Route Table was successfully updated with a default route that directs all internet-bound traffic to the Internet Gateway. This configuration enables resources in the associated public subnet to access the internet.
+
+## What I Learned
+
+- A route defines where network traffic should be directed.
+- The destination `0.0.0.0/0` represents all IPv4 internet traffic.
+- An Internet Gateway must be attached to the VPC before it can be selected as the target for a route.
+- A public subnet requires a Route Table with a default route pointing to an Internet Gateway to enable internet connectivity.
+
+## Skills Demonstrated
+
+- Amazon VPC
+- Route Table Configuration
+- Internet Gateway (IGW)
+- VPC Routing
+- AWS Networking
+- Cloud Infrastructure
 - AWS Management Console
 
+# Step 5: Attach the Internet Gateway to the VPC
+
+## Objective
+
+The objective of this task was to attach the Internet Gateway (IGW) to my Virtual Private Cloud (VPC). Attaching the Internet Gateway allows resources within the VPC to communicate with the internet when combined with the appropriate routing configuration.
+
+## Steps Performed
+
+1. Logged in to the AWS Management Console.
+2. Searched for **VPC** and opened the **VPC Dashboard**.
+3. Selected **Internet Gateways** from the left navigation pane.
+4. Chose the Internet Gateway I had previously created.
+5. Clicked **Actions**.
+6. Selected **Attach to VPC**.
+7. Chose my VPC from the list of available VPCs.
+8. Clicked **Attach internet gateway**.
+
+## Result
+
+The Internet Gateway was successfully attached to my VPC. This completed a key networking configuration, allowing the VPC to communicate with the internet once the Route Table was updated with the appropriate route.
+
+## What I Learned
+
+- An Internet Gateway must be attached to a VPC before it can provide internet connectivity.
+- Attaching an Internet Gateway alone does not give resources internet access.
+- A Route Table must also include a default route (`0.0.0.0/0`) that points to the Internet Gateway.
+- Resources in a public subnet can access the internet only after the Internet Gateway is attached and the Route Table is properly configured.
+
+## Skills Demonstrated
+
+- Amazon VPC
+- Internet Gateway (IGW)
+- VPC Configuration
+- AWS Networking
+- Cloud Infrastructure
+- AWS Management Console
 
 # Step 6: Create a Route Table
 
@@ -189,13 +299,11 @@ The Route Table was successfully updated with a default route that directs all i
 - VPC Routing
 - AWS Networking
 - Cloud Infrastructure
-- AWS Management Console
-
-# Step 7: Add a Route to the Internet Gateway
+- AWS Management Console# Step 7: Add a Route to the Route Table
 
 ## Objective
 
-The objective of this task was to configure the Route Table by adding a default route that directs internet-bound traffic to the Internet Gateway (IGW). This allows resources in the public subnet to communicate with the internet.
+The objective of this task was to add a default route to the Route Table, allowing internet-bound traffic from the public subnet to be directed through the Internet Gateway (IGW). This is an essential step in enabling internet access for resources deployed in the public subnet.
 
 ## Steps Performed
 
@@ -203,7 +311,7 @@ The objective of this task was to configure the Route Table by adding a default 
 2. Searched for **VPC** and opened the **VPC Dashboard**.
 3. Selected **Route Tables** from the left navigation pane.
 4. Chose the Route Table I had previously created.
-5. Opened the **Routes** tab.
+5. Selected the **Routes** tab.
 6. Clicked **Edit routes**.
 7. Clicked **Add route**.
 8. Entered the following values:
@@ -213,25 +321,24 @@ The objective of this task was to configure the Route Table by adding a default 
 
 ## Result
 
-The Route Table was successfully updated with a default route that directs all internet-bound traffic to the Internet Gateway. This configuration enables resources in the associated public subnet to access the internet.
+The Route Table was successfully updated with a default route that directs all internet-bound traffic to the Internet Gateway. This allows resources in the associated public subnet to communicate with the internet.
 
 ## What I Learned
 
-- A route defines where network traffic should be directed.
-- The destination `0.0.0.0/0` represents all IPv4 internet traffic.
-- An Internet Gateway must be attached to the VPC before it can be selected as the target for a route.
-- A public subnet requires a Route Table with a default route pointing to an Internet Gateway to enable internet connectivity.
+- A Route Table contains rules that determine where network traffic is directed.
+- The route `0.0.0.0/0` represents all IPv4 internet traffic.
+- The Internet Gateway must be attached to the VPC before it can be selected as the route target.
+- Without a default route to the Internet Gateway, resources in a public subnet cannot access the internet.
 
 ## Skills Demonstrated
 
 - Amazon VPC
 - Route Table Configuration
 - Internet Gateway (IGW)
-- VPC Routing
 - AWS Networking
+- Network Routing
 - Cloud Infrastructure
 - AWS Management Console
-
 
 
 # Step 8: Associate the Route Table with the Public Subnet
