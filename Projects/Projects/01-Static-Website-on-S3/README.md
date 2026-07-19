@@ -86,6 +86,9 @@ Configured:
 
 - Host Static Website
 - Index document: index.html
+- ### Screenshot
+
+![Enable Static Website Hosting](screenshots/1000345570.jpg)
 
 ---
 
