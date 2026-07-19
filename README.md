@@ -81,7 +81,9 @@ Working towards:
 
 ## Connect With Me
 
-LinkedIn: Add your LinkedIn profile link here
+LinkedIn: www.linkedin.com/in/
+nneamaka-osuagwu-baa98b170
+
 
 ---
 
