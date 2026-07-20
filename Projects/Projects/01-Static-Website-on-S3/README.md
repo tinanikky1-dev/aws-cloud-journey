@@ -89,7 +89,7 @@ Enabled static website hosting and configured:
 - Host Static Website
 - Index document: index.html
 
-![Static Website Hosting](screenshots/enabled-static-website-hosting.jpg)
+![Static Website Hosting](screenshots/enable-static-website-hosting.jpg)
 
 ---
 
