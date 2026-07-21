@@ -123,7 +123,7 @@ Successfully launched the EC2 instance.
 
 ### Screenshot
 
-![Instance Running](instance-successfully-launched-running.jpg)
+![Instance Running](instance-successfully-launched-runing.jpg)
 
 ---
 
