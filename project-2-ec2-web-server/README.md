@@ -63,7 +63,7 @@ Started by navigating to the Amazon EC2 service from the AWS Management Console.
 
 ### Screenshot
 
-![EC2 Console](screenshots/console-home.jpg)
+![EC2 Console](console-home.jpg)
 
 ---
 
@@ -73,7 +73,7 @@ Selected **Amazon Linux 2023** as the operating system.
 
 ### Screenshot
 
-![Amazon Linux 2023](screenshots/AMI-selected-.jpg)
+![Amazon Linux 2023](AMI-selected-.jpg)
 
 ---
 
@@ -83,7 +83,7 @@ Selected **t3.micro**.
 
 ### Screenshot
 
-![Instance Type](screenshots/instance-type-selected.jpg)
+![Instance Type](instance-type-selected.jpg)
 
 ---
 
@@ -93,7 +93,7 @@ Created a new EC2 key pair for secure access.
 
 ### Screenshot
 
-![Key Pair](screenshots/new-key-repair-created.jpg)
+![Key Pair](new-key-repair-created.jpg)
 
 ---
 
@@ -103,7 +103,7 @@ Accepted the default storage configuration.
 
 ### Screenshot
 
-![Storage Configuration](screenshots/configuration-storage-established.jpg)
+![Storage Configuration](configuration-storage-established.jpg)
 
 ---
 
@@ -113,7 +113,7 @@ Configured the networking settings before launching the instance.
 
 ### Screenshot
 
-![Network Settings](screenshots/network-settings-created.jpg)
+![Network Settings](network-settings-created.jpg)
 
 ---
 
@@ -123,7 +123,7 @@ Successfully launched the EC2 instance.
 
 ### Screenshot
 
-![Instance Running](screenshots/instance-successfully-launched-running.jpg)
+![Instance Running](instance-successfully-launched-running.jpg)
 
 ---
 
@@ -133,7 +133,7 @@ Confirmed that both instance status checks passed.
 
 ### Screenshot
 
-![Status Checks](screenshots/instance-status-checked-passed.jpg)
+![Status Checks](instance-status-checked-passed.jpg)
 
 ---
 
@@ -143,7 +143,7 @@ Added an inbound HTTP rule to allow web traffic.
 
 ### Screenshot
 
-![Security Group](screenshots/inbound-security-group-rules-successfully-modified-on-the-security-group.jpg)
+![Security Group](inbound-security-group-rules-successfully-modified-on-the-security-group.jpg)
 
 ---
 
@@ -153,7 +153,7 @@ Connected using EC2 Instance Connect.
 
 ### Screenshot
 
-![Terminal](screenshots/html-terminal-created.jpg)
+![Terminal](html-terminal-created.jpg)
 
 ---
 
@@ -167,7 +167,7 @@ sudo dnf install httpd -y
 
 ### Screenshot
 
-![Apache Installed](screenshots/sudo-dnf-install.jpg)
+![Apache Installed](sudo-dnf-install.jpg)
 
 ---
 
@@ -177,9 +177,9 @@ Created an `index.html` file and linked a CSS stylesheet.
 
 ### Screenshots
 
-![Website Created](screenshots/successfully-created-first-website-page.jpg)
+![Website Created](successfully-created-first-website-page.jpg)
 
-![CSS Linked](screenshots/style-css-linked.jpg)
+![CSS Linked](style-css-linked.jpg)
 
 ---
 
@@ -191,7 +191,7 @@ The website loaded successfully.
 
 ### Screenshot
 
-![Website Running](screenshots/successfully-lauched-my-website-on-ec2.jpg)
+![Website Running](successfully-lauched-my-website-on-ec2.jpg)
 
 ---
 
@@ -201,7 +201,7 @@ Stopped the EC2 instance after testing to avoid unnecessary AWS charges.
 
 ### Screenshot
 
-![Instance Stopped](screenshots/instance-successfully-stopped.jpg)
+![Instance Stopped](instance-successfully-stopped.jpg)
 
 ---
 
