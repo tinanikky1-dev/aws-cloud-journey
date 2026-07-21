@@ -113,7 +113,7 @@ Configured the networking settings before launching the instance.
 
 ### Screenshot
 
-![Network Settings](network-settings-created.jpg)
+![Network Settings](network settings-created.jpg)
 
 ---
 
