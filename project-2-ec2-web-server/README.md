@@ -83,7 +83,7 @@ Selected **t3.micro**.
 
 ### Screenshot
 
-![Instance Type](instance-type-selected.jpg)
+![Instance Type](instance-successfully-launched-runing.jpg)
 
 ---
 
