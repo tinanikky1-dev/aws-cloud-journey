@@ -1,0 +1,134 @@
+# Amazon Relational Database Service (Amazon RDS)
+
+## Overview
+
+Amazon Relational Database Service (Amazon RDS) is a managed database service provided by AWS that makes it easier to set up, operate, and scale relational databases in the cloud.
+
+With Amazon RDS, AWS manages many database administration tasks such as backups, software patching, hardware maintenance, and monitoring, allowing developers and cloud engineers to focus more on building applications.
+
+---
+
+# Use Cases of Amazon RDS
+
+Amazon RDS is commonly used for:
+
+- Web and mobile applications
+- E-commerce platforms
+- Business applications
+- Content Management Systems (CMS)
+- Customer Relationship Management (CRM) systems
+- Data-driven applications that require structured data storage
+
+---
+
+# Benefits of Amazon RDS
+
+## 1. Automated Backups
+
+Amazon RDS automatically performs backups, helping protect important database information and making recovery easier.
+
+## 2. Automatic Patching
+
+AWS handles database software updates and security patches during scheduled maintenance windows.
+
+## 3. High Availability
+
+RDS supports Multi-AZ deployments, which replicate databases across different Availability Zones to improve availability and reduce downtime.
+
+## 4. Easy Scaling
+
+Database resources such as storage and computing power can be increased as application requirements grow.
+
+## 5. Security
+
+Amazon RDS provides security features such as encryption, network isolation using Amazon VPC, and access control through IAM.
+
+## 6. Monitoring
+
+Integration with Amazon CloudWatch helps monitor database performance and health.
+
+---
+
+# Supported Database Engines
+
+Amazon RDS supports several popular relational database engines:
+
+- MySQL
+- PostgreSQL
+- MariaDB
+- Oracle Database
+- Microsoft SQL Server
+
+---
+
+# Amazon Aurora
+
+## Overview
+
+Amazon Aurora is a fully managed relational database engine built by AWS. It is compatible with MySQL and PostgreSQL but provides improved performance, availability, and scalability.
+
+Aurora is designed for applications that require high performance and reliability.
+
+---
+
+# Use Cases of Amazon Aurora
+
+Amazon Aurora is commonly used for:
+
+- High-traffic websites
+- Enterprise applications
+- Software as a Service (SaaS) applications
+- Financial applications
+- Gaming platforms
+
+---
+
+# Benefits of Amazon Aurora
+
+## 1. High Performance
+
+Aurora provides faster database performance compared to traditional relational databases.
+
+## 2. High Availability
+
+Aurora automatically replicates data across multiple Availability Zones to improve fault tolerance.
+
+## 3. Automatic Scaling
+
+Aurora can automatically increase storage capacity as database needs grow.
+
+## 4. Automated Backups
+
+Aurora continuously backs up database information without affecting application performance.
+
+## 5. Security
+
+Aurora supports encryption, access control, and monitoring to protect sensitive data.
+
+---
+
+# Supported Aurora Database Engines
+
+Amazon Aurora supports:
+
+- Aurora MySQL-Compatible Edition
+- Aurora PostgreSQL-Compatible Edition
+
+---
+
+# Key Difference Between RDS and Aurora
+
+| Amazon RDS | Amazon Aurora |
+|---|---|
+| Supports multiple database engines | Compatible with MySQL and PostgreSQL |
+| Good for general relational database workloads | Designed for high-performance applications |
+| Managed database service | AWS-built high-performance database engine |
+| Offers automated backups and maintenance | Provides enhanced speed, scalability, and availability |
+
+---
+
+# My Learning Notes
+
+Learning Amazon RDS and Aurora has helped me understand how AWS simplifies database management by handling complex tasks like backups, patching, scaling, and availability.
+
+As I continue my AWS Cloud Engineering journey, I am building my understanding of when and why different cloud services are used.
