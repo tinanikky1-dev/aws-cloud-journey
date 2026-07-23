@@ -43,31 +43,31 @@ The application contains the following files:
 
 ### Elastic Beanstalk Application
 
-![Elastic Beanstalk Application](screenshots/01-Elastic-Beanstalk-Application.jpg)
+![Elastic Beanstalk Application](01-Elastic-Beanstalk-Application.jpg)
 
 ### Successfully Uploaded File
 
-![Successfully Uploaded File](screenshots/02-Successfully-Uploaded-File.jpg)
+![Successfully Uploaded File](02-Successfully-Uploaded-File.jpg)
 
 ### Service Access Configuration
 
-![Service Access Configuration](screenshots/03-Service-Access-Configuration.jpg)
+![Service Access Configuration](03-Service-Access-Configuration.jpg)
 
 ### Environment Review
 
-![Environment Review](screenshots/04-Environment-Review.jpg)
+![Environment Review](04-Environment-Review.jpg)
 
 ### Upload and Deploy Environment
 
-![Upload Deploy Environment](screenshots/05-Upload-Deploy-Environment.jpg)
+![Upload Deploy Environment](05-Upload-Deploy-Environment.jpg)
 
 ### Environment Successfully Launched
 
-![Environment Successfully Launched](screenshots/06-Environment-Successfully-Launched.jpg)
+![Environment Successfully Launched](06-Environment-Successfully-Launched.jpg)
 
 ### Project Completed
 
-![Project Completed](screenshots/07-Project-Completed.jpg)
+![Project Completed](07-Project-Completed.jpg)
 
 ## Challenges Faced
 
