@@ -59,7 +59,8 @@ The application contains the following files:
 
 ### Upload and Deploy Environment
 
-![Upload Deploy Environment](05-Upload-Deploy-Environment.jpg)
+![Upload Deploy Environment](05-Upoad-Deploy-Environment.jpg
+)
 
 ### Environment Successfully Launched
 
