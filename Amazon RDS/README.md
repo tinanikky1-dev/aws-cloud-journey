@@ -3,7 +3,8 @@
 ### 1. MySQL Engine Selected
 Selected MySQL Community Edition while creating the Amazon RDS database.
 
-![MySQL Engine](screenshots/01-mysql-engine-selected.jpg)
+![MySQL Engine](1-mySQL-engin-option-selected.jpg
+.jpg)
 
 ---
 
