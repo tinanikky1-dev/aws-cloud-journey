@@ -29,7 +29,7 @@ A typical workflow includes:
 5. Train machine learning models using the prepared data.
 6. Deploy the models to make predictions or automate decisions.
 
-   ## Steps for Delivering Customer Data for Analysis and Machine Learning Model Training
+## Steps for Delivering Customer Data for Analysis and Machine Learning Model Training
 
 A typical solution for delivering customer data for analytics and machine learning follows these steps:
 
