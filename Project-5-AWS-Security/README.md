@@ -89,7 +89,8 @@ This screenshot shows the creation of an IAM group named **employees**. IAM grou
 
 ## Screenshot 4: IAM User Successfully Created
 
-![IAM User Successfully Created](screenshots/04-Successfully-Created-IAM-User.jpg)
+![IAM User Successfully Created](screenshots/04-Successfully-Createfd-IAM-User.jpg
+)
 
 This screenshot confirms that the new IAM user was successfully created. The user can now be assigned permissions directly or through IAM groups to access AWS resources securely.
 
