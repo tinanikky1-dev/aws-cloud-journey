@@ -56,6 +56,8 @@ Customers are responsible for securing what they build and store in AWS, includi
 * Configuring security groups and network settings
 * Updating applications and operating systems running on Amazon EC2
 
+* # AWS IAM Hands-on Lab
+
 ## Summary
 
 Learning AWS security starts with understanding **authentication**, **authorization**, and the **Shared Responsibility Model**. Authentication verifies who a user is, while authorization determines what that user is allowed to do. By combining these concepts with AWS security services like IAM, you can build secure and reliable cloud environments.
