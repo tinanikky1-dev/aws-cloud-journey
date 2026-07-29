@@ -61,8 +61,9 @@ Customers are responsible for securing what they build and store in AWS, includi
 Learning AWS security starts with understanding **authentication**, **authorization**, and the **Shared Responsibility Model**. Authentication verifies who a user is, while authorization determines what that user is allowed to do. By combining these concepts with AWS security services like IAM, you can build secure and reliable cloud environments.
 
 * # AWS IAM Hands-on Lab
-* ## Screenshot 1: AWS IAM Dashboard
+  
+## Screenshot 1: AWS IAM Dashboard
 
-[AWS IAM Dashboard](1_IAM_Service_Dashboard.jpg)
+![AWS IAM Dashboard](screenshots/02-iam-dashboard.png)
 
 This screenshot shows the AWS Identity and Access Management (IAM) dashboard. IAM is the AWS service used to manage users, groups, roles, and permissions securely.
