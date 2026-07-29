@@ -60,8 +60,50 @@ Customers are responsible for securing what they build and store in AWS, includi
 
 Learning AWS security starts with understanding **authentication**, **authorization**, and the **Shared Responsibility Model**. Authentication verifies who a user is, while authorization determines what that user is allowed to do. By combining these concepts with AWS security services like IAM, you can build secure and reliable cloud environments.
 
-* # AWS IAM Hands-on Lab
-  
-## Screenshot 1: AWS IAM Dashboard![AWS IAM Dashboard](screenshots/01-IAM-Service-Dashboard.jpg)
+# AWS IAM Hands-on Lab
 
-This screenshot shows the AWS Identity and Access Management (IAM) dashboard. IAM is the AWS service used to manage users, groups, roles, and permissions securely.
+## Screenshot 1: AWS IAM Dashboard
+
+![AWS IAM Dashboard](screenshots/01-IAM-Service-Dashboard.jpg)
+
+This screenshot shows the AWS Identity and Access Management (IAM) dashboard. IAM is the AWS service used to securely manage users, groups, roles, and permissions.
+
+---
+
+## Screenshot 2: Creating a New IAM User
+
+![Creating a New IAM User](screenshots/02-User-Access-Detail-Created.jpg)
+
+This screenshot shows the creation of a new IAM user. IAM users represent individuals or applications that need secure access to AWS resources. Creating separate users instead of using the root account is a security best practice.
+
+---
+
+## Screenshot 3: Creating the Employees IAM Group
+
+![Creating the Employees IAM Group](screenshots/03-Employee-User-Group-Created.jpg)
+
+This screenshot shows the creation of an IAM group named **employees**. IAM groups make permission management easier by allowing multiple users to share the same set of permissions.
+
+---
+
+## Screenshot 4: IAM User Successfully Created
+
+![IAM User Successfully Created](screenshots/04-Successfully-Created-IAM-User.jpg)
+
+This screenshot confirms that the new IAM user was successfully created. The user can now be assigned permissions directly or through IAM groups to access AWS resources securely.
+
+---
+
+## Screenshot 5: Permission Policy Generated
+
+![Permission Policy Generated](screenshots/05-Permission-Policy-Generated.jpg)
+
+This screenshot shows the permission policy generated for the IAM group. IAM policies define what actions users, groups, or roles are allowed or denied from performing on AWS resources.
+
+---
+
+## Screenshot 6: IAM Role Successfully Created
+
+![IAM Role Successfully Created](screenshots/06-Role-Successfully-Created.jpg)
+
+This screenshot confirms that the IAM role was successfully created. IAM roles provide temporary security credentials that can be assumed by trusted users, applications, or AWS services without using long-term access keys.
