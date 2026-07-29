@@ -64,6 +64,6 @@ Learning AWS security starts with understanding **authentication**, **authorizat
   
 ## Screenshot 1: AWS IAM Dashboard
 
-![AWS IAM Dashboard](screenshots/02-iam-dashboard.png)
+![AWS IAM Dashboard](01-IAM-Service-Dashboard.jpg)
 
 This screenshot shows the AWS Identity and Access Management (IAM) dashboard. IAM is the AWS service used to manage users, groups, roles, and permissions securely.
