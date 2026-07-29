@@ -80,7 +80,8 @@ This screenshot shows the creation of a new IAM user. IAM users represent indivi
 
 ## Screenshot 3: Creating the Employees IAM Group
 
-![Creating the Employees IAM Group](screenshots/03-Employee-User-Group-Created.jpg)
+![Creating the Employees IAM Group](screenshots/03-Employee-User-Group-Createdt.jpg
+)
 
 This screenshot shows the creation of an IAM group named **employees**. IAM groups make permission management easier by allowing multiple users to share the same set of permissions.
 
